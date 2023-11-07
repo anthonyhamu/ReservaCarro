@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Layoutsaa</string>
+    <string name="carros_eletricos">Carros eletricos</string>
+    <string name="bateria">Bateria:</string>
+    <string name="favoritos">favoritos</string>
+    <string name="pre_o">Preço:</string>
+    <string name="r_120000_00">R$120000,00</string>
+    <string name="carros">Carros</string>
+    <string name="_1000kv">600kwh</string>
+    <string name="_670cv">670cv</string>
+    <string name="pot_ncia">Potência</string>
+    <string name="prec">Preço:</string>
+    <string name="km_percorrido">Quantos KM irá percorrer</string>
+    <string-array name="cores_carro">
+        <item>Vermelho</item>
+        <item>Preto</item>
+        <item>Prata</item>
+    </string-array>
+</resources>
