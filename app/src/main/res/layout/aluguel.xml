@@ -98,17 +98,29 @@
         android:text="Escolha a data"/>
 
     <TextView
+        android:id="@+id/informações"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Informações"
+        android:text="Informações:"
         app:layout_constraintTop_toBottomOf="@+id/btndevolucao"
-        />
+        app:layout_constraintStart_toStartOf="@+id/btndevolucao"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lorem ipsun"
+        app:layout_constraintStart_toStartOf="@+id/informações"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/informações"
+        android:layout_margin="10dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
+        android:id="@+id/conclusão"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textStyle="bold"
-        android:text="Finalizar reserva"
+        android:text="Concluir reserva"
         app:layout_constraintBottom_toBottomOf="parent" />
 
 

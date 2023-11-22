@@ -26,9 +26,7 @@ class MainActivity : AppCompatActivity() {
     }
     private fun setupView(){
          btnentrar= findViewById(R.id.btn_entrar)
-        // percorrido =  findViewById<EditText>(R.id.et_percorrido)
-        // preco = findViewById<EditText>(R.id.et_preço_kwh)
-       // resultado = findViewById<TextView>(R.id.tv_resultado)
+
 
         btncarro= findViewById(R.id.cv_view)
 
@@ -42,10 +40,7 @@ class MainActivity : AppCompatActivity() {
     private fun setupListerners(){
 
         btnentrar.setOnClickListener{
-            //val kM = percorrido.text.toString().toFloat()
-            //val precoKw = preco.text.toString().toFloat()
-            //val res = kM/precoKw
-            //resultado.text = res.toString()
+
             startActivity( Intent(this,CalcularAutonomiaActivity::class.java))
 
         }

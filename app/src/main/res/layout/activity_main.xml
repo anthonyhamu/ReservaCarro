@@ -141,10 +141,13 @@
        android:layout_height="wrap_content"
        android:layout_margin="16dp"
        android:text="@string/carros_eletricos"
+       android:textAlignment="center"
        android:textColor="#000000"
        android:textSize="20sp"
        android:textStyle="bold"
+       app:layout_constraintEnd_toEndOf="parent"
        app:layout_constraintLeft_toLeftOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
        app:layout_constraintTop_toTopOf="parent" />
 
    <TextView
@@ -185,14 +188,7 @@
 
        tools:ignore="MissingConstraints" />
 
-   <ListView
-       android:id="@+id/lv_informacoes"
-       android:layout_width="415dp"
-       android:layout_height="317dp"
-       app:layout_constraintBottom_toTopOf="@+id/btn_entrar"
-       app:layout_constraintEnd_toEndOf="parent"
-       app:layout_constraintStart_toStartOf="parent"
-       app:layout_constraintTop_toBottomOf="@+id/cv_view" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
